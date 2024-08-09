@@ -134,6 +134,7 @@ p {
     max-width: 150px;
 }
 
+/* these can potentially be the same (services) */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +161,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* these are all formatted the same */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +173,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* these can potentially be the same (services) */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
