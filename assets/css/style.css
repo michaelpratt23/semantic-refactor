@@ -7,22 +7,23 @@
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/* Changed from a class to an element */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+/* Changed from a class to an element */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
+/* Changed from a class to an element */
 /* I changed these to nav from div to fix my header nav links */
 .header nav {
     padding-top: 15px;
@@ -31,12 +32,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header nav ul {
+/* Changed from a class to an element */
+header nav ul {
     list-style-type: none;
 }
-
-.header nav ul li {
+/* Changed from a class to an element */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -68,8 +69,8 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/* Changed from a class to an element and renamed to main to match html*/
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -86,56 +87,30 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Combined the benefit lead and brand into the line below */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* Combined more lines into the one below */
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/* Combined more lines into the one below */
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* these can potentially be the same (services) */
-.search-engine-optimization {
+/* Combined more lines into the .offerings below */
+.offerings {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,58 +119,25 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* these are all formatted the same */
-.search-engine-optimization img {
+/* Combined more lines into the .offerings img below */
+.offerings img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-/* these can potentially be the same (services) */
-.search-engine-optimization h2 {
+/* Combined more lines into the offerings below */
+.offerings h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* Changed these to elements */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }

@@ -5,7 +5,8 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>website</title>
+    <!--Added a name in-->
+    <title>Horiseon Social Solution Services</title>
   </head>
 
   <body>
@@ -32,8 +33,8 @@
     <section class="hero"></section>
 
     <!--Updated from div to main and then marked each as a unique section, additionally updated the images to have an alt line that descibes what is happening in those images-->
-    <main class="content">
-      <section class="search-engine-optimization">
+    <main>
+      <section id="search-engine-optimization" class="offerings">
         <img
           src="./assets/images/search-engine-optimization.jpg"
           class="float-left"
@@ -48,10 +49,7 @@
         </p>
       </section>
 
-      <section
-        id="online-reputation-management"
-        class="online-reputation-management"
-      >
+      <section id="online-reputation-management" class="offerings">
         <img
           src="./assets/images/online-reputation-management.jpg"
           class="float-right"
@@ -67,7 +65,7 @@
         </p>
       </section>
 
-      <section id="social-media-marketing" class="social-media-marketing">
+      <section id="social-media-marketing" class="offerings">
         <img
           src="./assets/images/social-media-marketing.jpg"
           class="float-left"
@@ -86,7 +84,7 @@
     <!--created this as an asside element as it's not what's linked in the head and sits more as an extra item on the site-->
     <!--Additionally, I wanted to tag these as mini articles, however I was think maybe these could be sections? Wasn't sure here. Also added some alt to icons for descriptions-->
     <aside class="benefits">
-      <article class="benefit-lead">
+      <article class="benefit">
         <h3>Lead Generation</h3>
         <img src="./assets/images/lead-generation.png" alt="Lead Generation" />
         <p>
@@ -95,7 +93,7 @@
         </p>
       </article>
 
-      <article class="benefit-brand">
+      <article class="benefit">
         <h3>Brand Awareness</h3>
         <img src="./assets/images/brand-awareness.png" alt="Brand Awareness" />
         <p>
@@ -104,7 +102,7 @@
         </p>
       </article>
 
-      <article class="benefit-cost">
+      <article class="benefit">
         <h3>Cost Management</h3>
         <img src="./assets/images/cost-management.png" alt="Cost Management" />
         <p>
@@ -114,10 +112,10 @@
       </article>
     </aside>
 
-    
-    <div class="footer">
+    <!--Changed this to an element footer below-->
+    <footer>
       <h2>Made with ❤️️ by Horiseon</h2>
       <p>&copy; 2024 Horiseon Social Solution Services, Inc.</p>
-    </div>
+    </footer>
   </body>
 </html>
